@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Modelos y datos
+*.pkl
+*.csv
+!requirements*.txt
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datos sensibles
+prueba/*.csv
+Datos/*.csv
+datos_procesados.csv
+
+# Reportes y gráficas (opcional, puedes incluirlos si quieres)
+*.png
+*.jpeg
+*.jpg
+*.txt
+!README*.txt
+!requirements*.txt
+
+# Archivos temporales
+*.log
+*.tmp
+
